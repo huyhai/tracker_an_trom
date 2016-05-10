@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+   
+    android:orientation="vertical" >
+     <LinearLayout 
+    android:id="@+id/hr"
+      android:layout_width="fill_parent"
+      android:layout_height="@dimen/imgHightwidth_land"
+      
+      android:gravity="center_vertical"
+       android:background="@color/app_color"
+      android:orientation="vertical"
+      
+      android:weightSum="2"
+      >
+      <LinearLayout 
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:gravity="center_vertical"
+          android:orientation="vertical"
+          >
+      <ImageView 
+          android:layout_width="@dimen/imghw"
+          android:layout_height="@dimen/imghw"
+          android:padding="@dimen/padding2"
+          android:background="@drawable/bg_radius"
+          android:layout_marginLeft="@dimen/textsize"
+          android:src="@drawable/profilepic"
+          />
+      <TextView 
+          android:id="@+id/name"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textColor="@color/white"
+          android:text="Nirbhay Singh"
+          android:layout_marginTop="@dimen/textsize"
+          android:layout_marginLeft="@dimen/padding3"
+          android:textSize="@dimen/textsize3"
+          android:textStyle="bold"
+          />
+      </LinearLayout>
+      </LinearLayout>
+  <View
+     android:layout_below="@+id/hr"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:id="@+id/shado"
+        android:background="@drawable/toolbar_dropshadow" />
+</LinearLayout>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="list_item_title">#fff</color>
+    <color name="list_background">#303030</color>
+    <color name="list_background_pressed">#992416</color>
+    <color name="list_divider">#272727</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+    <color name="header_color">#298E3F</color>
+    <color name="bg_colo">#f7f7f7</color>
+    <color name="currenttb">#b2b2b2</color>
+    <color name="unselectetb">#d2d0d0</color>
+    <color name="app_color">#23B14D</color>
+    <color name="view_background">#e8ecfa</color>
+    <color name="btn_bg">#277bec</color>
+    <color name="txt_font">#4e5572</color>
+    <color name="action_bar">#1f2649</color>
+
+    <drawable name="bg_hotdeal">#ed1c24</drawable>
+    <drawable name="bg_slide">#2f3d4c</drawable>
+    <drawable name="bg_item_slide_choose">#2a3744</drawable>
+    <drawable name="bg_item_slide_none">#2c3948</drawable>
+    <drawable name="color_page">#ff7f66</drawable>
+    <drawable name="text_cl">#62686c</drawable>
+    <drawable name="translucent_background">#e0000000</drawable>
+    <drawable name="transparent_background">#50FF0000</drawable>
+    <drawable name="transparent">#00000000</drawable>
+    <drawable name="bg_connect">#2f3d4c</drawable>
+
+    <color name="bg_app">#FFFFFF</color>
+    <color name="bg_red_hotdeal">#ed1c24</color>
+    <color name="bg_tab_green">#71be0f</color>
+    <color name="bg_topblack">#333333</color>
+    <color name="btn_location_choosen">#71be10</color>
+    <color name="btn_location_none">#f7f7f7</color>
+    <color name="darkgraytext">#7c7c7c</color>
+    <color name="bg_dauhuy">#6c2427</color>
+    <color name="bg_dathu">#e4e0e0</color>
+    <color name="bg_itemgroup">#c2e7ff</color>
+    <color name="bg_yeucau">#141517</color>
+    <color name="bg_yeucau_item">#33373a</color>
+    <color name="btn_dangki">#3498db</color>
+    <color name="btn_dangnhap">#71be0f</color>
+    <color name="bg_menu_user">#3f5058</color>
+    <color name="bg_menu_user1">#eeeeee</color>
+    <color name="bg_lichsu">#f5f5f5</color>
+    <color name="bg_onproceed">#daeef3</color>
+    <color name="bg_cancel">#feaf84</color>
+    <color name="yellow">#ffd800</color>
+    <color name="bg_chitiet">#f2f2f2</color>
+    <color name="milky">#C4C4C4</color>
+    <color name="pink">#ff6b6b</color>
+    <color name="lightgrey">#CCCCCC</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blue_map">#3498db</color>
+    <color name="black">#000000</color>
+    <color name="blue">#0000FF</color>
+    <color name="red">#FF0000</color>
+    <color name="darkgrey">#40303030</color>
+    <color name="darkgreylight">#645959</color>
+    <color name="lightblack">#404040</color>
+    <color name="darkorange">#F88017</color>
+    <color name="orange">#d4762f</color>
+    <color name="green">#3CB371</color>
+    <color name="green2">#669933</color>
+    <color name="btn_dangxuat">#2d2d2d</color>
+    <color name="btn_giohang">#d6d6d6</color>
+    <color name="btn_muangay">#71be0f</color>
+    <color name="bgSecondRand">#76933c</color>
+    <color name="bgThreeRank">#c4d79b</color>
+    <color name="red_hotdeal">#ed1c24</color>
+    <color name="grid_bg">#FFFFFFFF</color>
+    <color name="grid_border">#FFC6C6C6</color>
+    <color name="bg_text_dangnhap">#72bf0f</color>
+    <color name="vpi__background_holo_dark">#ff000000</color>
+    <color name="vpi__background_holo_light">#fff3f3f3</color>
+    <color name="vpi__bright_foreground_holo_dark">@color/vpi__background_holo_light</color>
+    <color name="vpi__bright_foreground_holo_light">@color/vpi__background_holo_dark</color>
+    <color name="vpi__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="vpi__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+
+    <bool name="default_circle_indicator_centered">true</bool>
+
+    <color name="default_circle_indicator_fill_color">#FFFFFFFF</color>
+    <color name="default_circle_indicator_page_color">#FF0000</color>
+
+    <integer name="default_circle_indicator_orientation">0</integer>
+
+    <dimen name="default_circle_indicator_radius">3dp</dimen>
+
+    <bool name="default_circle_indicator_snap">false</bool>
+
+    <color name="default_circle_indicator_stroke_color">#FFDDDDDD</color>
+
+    <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
+    <dimen name="default_line_indicator_line_width">12dp</dimen>
+    <dimen name="default_line_indicator_gap_width">4dp</dimen>
+    <dimen name="default_line_indicator_stroke_width">1dp</dimen>
+
+    <color name="default_line_indicator_selected_color">#FF33B5E5</color>
+    <color name="default_line_indicator_unselected_color">#FFBBBBBB</color>
+
+    <bool name="default_line_indicator_centered">true</bool>
+
+    <dimen name="default_title_indicator_clip_padding">4dp</dimen>
+
+    <color name="default_title_indicator_footer_color">#FF33B5E5</color>
+
+    <dimen name="default_title_indicator_footer_line_height">2dp</dimen>
+
+    <integer name="default_title_indicator_footer_indicator_style">2</integer>
+
+    <dimen name="default_title_indicator_footer_indicator_height">4dp</dimen>
+    <dimen name="default_title_indicator_footer_indicator_underline_padding">20dp</dimen>
+    <dimen name="default_title_indicator_footer_padding">7dp</dimen>
+
+    <integer name="default_title_indicator_line_position">0</integer>
+
+    <color name="default_title_indicator_selected_color">#FFFFFFFF</color>
+
+    <bool name="default_title_indicator_selected_bold">true</bool>
+
+    <color name="default_title_indicator_text_color">#BBFFFFFF</color>
+
+    <dimen name="default_title_indicator_text_size">15dp</dimen>
+    <dimen name="default_title_indicator_title_padding">5dp</dimen>
+    <dimen name="default_title_indicator_top_padding">7dp</dimen>
+
+    <bool name="default_underline_indicator_fades">true</bool>
+
+    <integer name="default_underline_indicator_fade_delay">300</integer>
+    <integer name="default_underline_indicator_fade_length">400</integer>
+
+    <color name="default_underline_indicator_selected_color">#FF33B5E5</color>
+    <color name="caldroid_white">#FFFFFF</color>
+    <color name="caldroid_black">#000000</color>
+    <color name="caldroid_transparent">#00000000</color>
+    <!-- For settings framework -->
+    <color name="caldroid_lighter_gray">#ddd</color>
+    <color name="caldroid_gray">#CCC</color>
+    <color name="caldroid_darker_gray">#aaa</color>
+    <color name="caldroid_middle_gray">#888</color>
+    <!-- A light Holo shade of blue -->
+    <color name="caldroid_holo_blue_light">#ff33b5e5</color>
+    <!-- A dark Holo shade of blue -->
+    <color name="caldroid_holo_blue_dark">#ff0099cc</color>
+    <!-- A really bright Holo shade of blue -->
+    <color name="caldroid_sky_blue">#FFA3E8F7</color>
+    <color name="caldroid_333">#333</color>
+    <color name="caldroid_555">#555</color>
+    <color name="caldroid_light_red">#ff7f7f</color>
+    <color name="fuchsia">#FF00FF</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="gray">#808080</color>
+    <color name="olive">#808000</color>
+    <color name="purple">#800080</color>
+    <color name="maroon">#800000</color>
+    <color name="aqua">#00FFFF</color>
+    <color name="lime">#00FF00</color>
+    <color name="teal">#008080</color>
+    <color name="navy">#000080</color>
+    <color name="float_transparent">#00000000</color>
+    <color name="sweet_dialog_bg_color">#FFFFFF</color>
+    <color name="button_text_color">#FFFFFF</color>
+    <color name="gray_btn_bg_color">#D0D0D0</color>
+    <color name="gray_btn_bg_pressed_color">#B6B6B6</color>
+    <color name="blue_btn_bg_color">#AEDEF4</color>
+    <color name="blue_btn_bg_pressed_color">#96BFD2</color>
+    <color name="red_btn_bg_color">#DD6B55</color>
+    <color name="red_btn_bg_pressed_color">#CD5B55</color>
+    <color name="error_stroke_color">#F27474</color>
+    <color name="success_stroke_color">#A5DC86</color>
+    <color name="trans_success_stroke_color">#33A5DC86</color>
+    <color name="warning_stroke_color">#F8BB86</color>
+    <color name="text_color">#575757</color>
+    <color name="material_blue_grey_80">#ff37474f</color>
+    <color name="material_blue_grey_90">#ff263238</color>
+    <color name="material_blue_grey_95">#ff21272b</color>
+    <color name="material_deep_teal_20">#ff80cbc4</color>
+    <color name="material_deep_teal_50">#ff009688</color>
+
+</resources>

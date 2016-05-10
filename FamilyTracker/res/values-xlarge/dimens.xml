@@ -1,0 +1,51 @@
+<resources>
+
+    <!--
+    									x-large
+         Example customization of dimensions originally defined in res/values/dimens.xml
+         (such as screen margins) for screens with more than 820dp of available width. This
+         would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively).
+    -->
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+    <dimen name="sign_in_image_height">300dp</dimen>
+    <dimen name="edittext_border_radius">3dp</dimen>
+    <dimen name="radius">16dp</dimen>
+    
+    
+     <dimen name="margin01">-16dp</dimen>
+      <dimen name="padding2">15dp</dimen>
+     <dimen name="margin0">-30dp</dimen>
+    <dimen name="margin1">120dp</dimen>
+    <dimen name="margin2">90dp</dimen>
+    <dimen name="margin3">18dp</dimen>
+      <dimen name="textsize3">24dp</dimen>
+    <dimen name="margin4">60dp</dimen>
+    <dimen name="margin5">40dp</dimen>
+    <dimen name="margin6">100dp</dimen>
+      <dimen name="margin6.1">103dp</dimen>
+    <dimen name="margin7">70dp</dimen>
+    <dimen name="margin8">210dp</dimen>
+     <dimen name="margin9">120dp</dimen>
+     <dimen name="margin20">36dp</dimen>
+     <dimen name="dialogwith">140dp</dimen>
+     
+    <dimen name="padding">8dp</dimen>
+    <dimen name="padding1">11dp</dimen>
+    <dimen name="height">60dp</dimen>
+    <dimen name="height1">80dp</dimen>
+    <dimen name="height2">100dp</dimen>
+     <dimen name="height5">90dp</dimen>
+    <dimen name="height3">600dp</dimen>
+    <dimen name="height4">20dp</dimen>
+    <dimen name="textsize">20dp</dimen>
+    <dimen name="textsize1">26dp</dimen>
+    <dimen name="textsize2">40dp</dimen>
+    <dimen name="imgHightwidth">250dp</dimen>
+    <dimen name="imgHightwidth_land">260dp</dimen>
+    <dimen name="imghw">190dp</dimen>
+    <dimen name="imgHightwidth1">400dp</dimen>
+     <dimen name="imgHightwidth2">350dp</dimen>
+     <dimen name="popupwidth">480dp</dimen>
+     <dimen name="popupheight">380dp</dimen>
+
+</resources>

@@ -1,0 +1,58 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+    <LinearLayout 
+         android:layout_width="match_parent"
+ android:orientation="vertical"
+    android:layout_height="match_parent"
+        >
+  <include layout="@layout/homeheader_layout" />
+  
+    <FrameLayout
+        android:id="@+id/frame_container"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+ <fragment
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            class="com.google.android.gms.maps.SupportMapFragment" />
+    <!-- Listview to display slider menu -->
+    
+    </LinearLayout>
+    
+ <LinearLayout
+        android:id="@+id/bar_lay"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical" >
+
+       
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/lnr1"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" >
+
+       
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/list_slidermenu"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:choiceMode="singleChoice"
+       
+             
+       
+          
+android:dividerHeight="0dp"
+        android:background="@color/list_background"/>
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,99 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/aditi"
+    tools:context="com.aditi.familytracker.SplashActivity" >
+    <LinearLayout 
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+       android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        >
+         <ImageView 
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="6dp"
+            android:src="@drawable/logos"
+            />
+        <EditText 
+            android:id="@+id/etname"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:singleLine="true"
+            android:layout_marginTop="8dp"
+            android:hint="Name"
+            android:paddingLeft="6dp"
+            android:background="@drawable/unnamed"
+            
+            />
+        <EditText 
+            android:id="@+id/etaddress"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:hint="Addrees"
+            android:layout_marginTop="8dp"
+            android:singleLine="true"
+            android:paddingLeft="6dp"
+            android:background="@drawable/unnamed"
+            
+            />
+        <EditText 
+            android:id="@+id/etpin"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:hint="Contact"
+            android:singleLine="true"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="6dp"
+            android:background="@drawable/unnamed"
+            
+            />
+        <Spinner 
+              android:id="@+id/usertype"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="8dp"
+            android:singleLine="true"
+            
+            android:background="@drawable/spinner_style"
+            />
+        <EditText 
+            android:id="@+id/etusername"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:hint="UserName"
+            android:paddingLeft="6dp"
+            android:singleLine="true"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/unnamed"
+            
+            />
+        <EditText 
+            android:id="@+id/pass"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:hint="Password"
+            android:paddingLeft="6dp"
+            android:singleLine="true"
+            android:layout_marginTop="8dp"
+             android:background="@drawable/unnamed"
+            
+            
+            />
+        <Button 
+            android:id="@+id/signupbtn"
+             android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:text="Sign Up"
+            android:textColor="#fff"
+            android:layout_marginTop="8dp"
+            
+            android:background="@drawable/button_style2"
+            />
+    </LinearLayout>
+</LinearLayout>
